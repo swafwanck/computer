@@ -97,7 +97,8 @@
   }
   .gallery ul li{
       margin:17px;
-      width:30%;
+      width:30%; 
+      box-shadow:5 5 5 5 #41447d;
   }
   .gallery ul li img{
       width: 95%;
