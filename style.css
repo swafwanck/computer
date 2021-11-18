@@ -103,7 +103,7 @@
   .gallery ul li img{
       width: 95%;
       border-radius: 15px;
-      box-shadow:2px 2px 2px 2px #41447d;
+      box-shadow:1px 1px 1px 1px #41447d;
     
   }
   .lab{
