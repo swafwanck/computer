@@ -1,0 +1,604 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .wrapper{
+      width: 90%;
+      max-width: 1350px;
+      margin:0 auto;
+  }
+
+  h1{
+    font-family: 'poppinsbold';  
+  }
+  
+  .text,.texts{
+    font-family: 'poppinssemibold'; 
+  }
+
+
+
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('../font/poppins-semibold-webfont.woff2') format('woff2'),
+         url('../font/poppins-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+  
+  
+  @font-face {
+      font-family: 'poppinsbold';
+      src: url('../font/poppins-bold-webfont.woff2') format('woff2'),
+           url('../font/poppins-bold-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+
+  ul{
+      list-style: none;
+  }
+  header{
+      height: 90px;
+      background-color:#f7f8ff;
+  }
+  .lab .container h1{
+     color:#f7f8ff;
+     font-size:34px ;
+     text-align:center;
+     margin-left: -6%;
+     padding-top:7%;
+  }
+  .lab .container{
+    width:70%;
+    margin-left:15%;
+    border-radius: 15px;
+    height:160px;
+    background-image: linear-gradient(180deg,transparent,#000),
+      url("../images/Computer3.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+     
+  }
+  .staff{
+      display:flex;
+      margin-left:20%;
+      margin-top:5%;
+      margin-bottom: 25px;
+      color: #999;
+      font-size: 22px;
+  }
+  .staff .text{
+      margin-right: 25px;
+
+  }
+  .gallery{
+      margin-left: 28px;
+      margin-top: 7%;
+      margin-bottom: 10%;
+  }
+  .gallery ul{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  .gallery ul li{
+      margin:17px;
+      width:30%; 
+  }
+  .gallery ul li img{
+      width: 95%;
+      border-radius: 15px;
+    
+  }
+  .lab{
+     margin-top: 8%;
+  }
+  
+  #footer{
+     height:260px; 
+     width:100%;
+     background-color:#41447d;
+  }
+ 
+  @media all and (max-width:1280px){
+    .lab .container h1{
+      color:#f7f8ff;
+      font-size:34px ;
+      margin-left: -6%;
+      padding-top: 7%;
+   }
+    .staff{
+       font-size:18px;
+    }
+    .gallery ul li{
+        margin: 13px;
+    }
+}
+  @media all and (max-width:1220px){
+    .lab .container h1{
+      font-size:34px ;
+      padding-top: 8%;
+   }
+    .staff{
+       font-size:18px ;
+    }
+    .gallery ul li{
+        margin: 13px;
+    }
+}
+  @media all and (max-width:1180px){
+    .lab .container h1{
+      font-size:34px ;
+      padding-top: 9%;
+   }
+    
+    .staff{
+       font-size:18px ;
+    }
+    .gallery ul li{
+        margin: 13px;
+    }
+}
+  @media all and (max-width:1120px){
+    .lab .container h1{
+      font-size:34px ;
+      padding-top: 9%;
+   }
+    .staff{
+       font-size:18px ;
+    }
+    .gallery ul li{
+        margin: 13px;
+    }
+}
+  @media all and (max-width:1080px){
+    .lab .container h1{
+      font-size:34px ;
+      padding-top: 9%;
+   }
+    .staff{
+       font-size:17px ;
+    }
+    .gallery ul li{
+        margin: 13px;
+    }
+
+}
+@media all and (max-width:1024px){
+  .lab .container h1{
+    font-size:34px ;
+    padding-top: 9%;
+ }
+  .staff{
+     font-size:17px ;
+  }
+  .gallery ul li{
+      margin: 13px;
+  }
+      .gallery ul li img{
+        width: 100%;
+     height:100%
+    
+  }
+
+}
+@media all and (max-width:920px){
+  .lab .container h1{
+    font-size:34px ;
+    padding-top: 10%;
+ }
+    .staff{
+       font-size:17px ;
+    }
+    .gallery ul{
+      margin:10px;
+    }
+    .gallery ul li{
+        margin: 15px;
+      width:40%  ;
+      height: 180px;   
+    }
+    .gallery ul li img{
+      width: 100%;
+     height:100%
+  }
+}
+@media all and (max-width:897px){
+  .lab .container h1{
+    font-size:34px ;
+    padding-top: 10%;
+ }
+    .staff{
+       font-size:17px ;
+    }
+    .gallery ul{
+      margin:10px;
+    }
+    .gallery ul li{
+        margin: 15px;
+      width:40%  ;
+      height: 180px;   
+    }
+    .gallery ul li img{
+      width: 100%;
+     height:100%
+  }
+}
+@media all and (max-width:768px){
+  .lab .container h1{
+   
+    font-size:34px ;
+    padding-top: 12.5%;
+ }
+ .lab .container {
+   height: 140px;
+ }
+    .staff{
+       font-size:17px ;
+    }
+    .gallery ul{
+      margin:10px;
+      margin-right: 2%;
+    }
+    .gallery ul li{
+        margin: 15px;
+      width:40%  ;
+      height:180px; 
+    }
+    .gallery ul li img{
+      width: 100%;
+      height:100%
+  }
+}
+@media all and (max-width:680px){
+  .lab .container h1{
+    font-size:30px ;
+    margin-left: 7%;
+    padding-top: 7%;
+ }
+  
+    .lab .container{
+         height:100px ;
+         margin-left:7%;
+         width: 88%;
+         padding-right: 10%;
+         margin-top: 12%;
+     }
+    .staff{
+       font-size:17px;
+       margin-top: 7%;
+    }
+    .gallery ul{
+      margin:14px;
+      margin-right:7%;
+      margin-left: 4%;
+    }
+    .gallery ul li{
+        margin:15px;
+      width:43%;
+      height:160px;   
+    }
+    .gallery ul li img{
+        width: 100%;
+     height:100%
+    }
+}
+@media all and (max-width:620px){
+  .lab .container h1{
+    
+    font-size:30px ;
+    
+    margin-left:8%;
+    padding-top: 8%;
+ }
+
+    .lab .container{
+         height:100px ;
+         margin-left:7%;
+         width: 85%;
+         padding-right: 10%;
+         margin-top: 12%;
+
+     }
+    .staff{
+       font-size:17px ;
+       margin-top: 8%;
+
+    }
+    .gallery ul{
+      margin:8px;
+      margin-right:34px;
+      margin-top: 10%;
+    }
+    .gallery ul li{
+        margin:10px;
+      width:43%;
+      height:160px;   
+    }
+    .gallery ul li img{
+        width: 100%;
+     height:100%
+    }
+}
+@media all and (max-width:580px){
+  .lab .container h1{
+    font-size:30px ;
+    margin-left:8%;
+    padding-top: 8.3%;
+ }
+    .lab .container{
+         height:100px ;
+         margin-left:7%;
+         width: 88%;
+         padding-right: 10%;
+         margin-top: 12%;
+     }
+    .staff{
+       font-size:16px ;
+       margin-top: 7%;
+    }
+    .gallery ul{
+      margin:8px;
+      margin-right:34px;
+      margin-left: 4%;
+    }
+    .gallery ul li{
+        margin:10px;
+      width:43%;
+      height:150px;   
+    }
+    .gallery ul li img{
+        width: 100%;
+     height:100%
+    }
+}
+@media all and (max-width:520px){
+  .lab .container h1{
+    font-size:30px ;
+    margin-left:10%;
+    padding-top: 9.8%;
+ }
+    .lab .container{
+         height:100px ;
+         margin-left:7%;
+         width: 88%;
+         padding-right: 10%;
+         margin-top: 12%;
+     }
+    .staff{
+       font-size:15px ;
+       margin-top: 7%;
+       margin-left:15%;
+    }
+    .gallery ul{
+      margin:8px;
+      margin-right:34px;
+      margin-left: 4%;
+    }
+    .gallery ul li{
+        margin:10px;
+      width:43%;
+      height:150px;   
+    }
+    .gallery ul li img{
+        width: 100%;
+     height:100%
+    }
+}
+
+@media all and (max-width:480px){
+  .lab .container h1{
+     font-size:30px ;
+     margin-left:11%;
+     padding-top:10.7%;
+ }
+    .lab .container{
+         height:100px ;
+         margin-left:7%;
+         width: 85%;
+         padding-right: 10%;
+         margin-top: 12%;
+     }
+    .staff{
+       font-size:15px ;
+       margin-top: 9%;
+    }
+    .gallery ul{
+      margin:8px;
+      margin-right:34px;
+    }
+    .gallery ul li{
+        margin:10px;
+      width:43%;
+      height:140px;   
+    }
+    .gallery ul li img{
+        width: 100%;
+     height:100%
+    }
+}
+@media all and (max-width:425px){
+  .lab .container h1{
+    font-size:30px ;
+    margin-left:11%;
+    padding-top:11%;
+}
+   .lab .container{
+         height:100px ;
+         margin-left:7%;
+         width: 88%;
+         padding-right: 10%;
+         margin-top: 12%;
+     }
+    .staff{
+       font-size:16px ;
+       margin-top: 7%;
+    }
+    .gallery ul{
+      margin:8px;
+      margin-right:34px;
+      margin-left: 10.5%;
+    }
+    .gallery ul li{
+        margin:10px;
+      width:85%;
+      height:170px;   
+    }
+    .gallery ul li img{
+        width: 100%;
+     height:100%
+    }
+}
+@media all and (max-width:393px){
+  .lab .container h1{
+    font-size:25px ;
+    margin-left:11%;
+    padding-top:13.6%;
+}
+    .lab .container{
+         height:100px ;
+         margin-left:10%;
+         width: 85%;
+         padding-right: 10%;
+         margin-top: 12%;
+     }
+    .staff {
+       font-size:15px ;
+       margin-top: 9%;
+       margin-left: 70px;
+    }
+    
+    .gallery ul{
+      margin:10px;
+      margin-left:6%;
+      margin-top: 14%;
+    }
+    .gallery ul li{
+        margin:13px;
+      width:83%;  
+      height:180px; 
+    }
+    .gallery ul li img{
+        width: 100%;
+     height:100%;
+     
+    }
+}
+@media all and (max-width:375px){
+  .lab .container h1{
+    font-size:27px ;
+    margin-left:11%;
+    padding-top:13%;
+   }
+    .lab .container{
+         height:100px ;
+         margin-left:8%;
+         width: 85%;
+         padding-right: 10%;
+         margin-top: 12%;
+     }
+    .staff {
+       font-size:15px ;
+       margin-top: 10%;
+       margin-left: 70px;
+    }
+    
+    .gallery ul{
+      margin:10px;
+      margin-left:10%;
+      margin-top: 14%;
+    }
+    .gallery ul li{
+        margin:13px;
+      width:75%;  
+      height:170px; 
+    }
+    .gallery ul li img{
+        width: 100%;
+     height:100%;
+     
+    }
+}
+@media all and (max-width:330px){
+  .lab .container h1{
+    font-size:24px ;
+    margin-left:11%;
+    padding-top:17%;
+}
+    .lab .container{
+         height:100px ;
+         margin-left:7%;
+         width: 88%;
+         padding-right: 10%;
+         margin-top: 12%;
+     }
+    .staff {
+       font-size:15px ;
+       margin-top: 11%;
+       margin-left: 50px;
+    }
+    
+    .gallery ul{
+      margin:10px;
+      margin-left:6%;
+      margin-top: 14%;
+    }
+    .gallery ul li{
+        margin:13px;
+      width:80%;  
+      height:150px; 
+    }
+    .gallery ul li img{
+        width: 100%;
+     height:100%;
+     
+    }
+}
+@media all and (max-width:320px){
+  .lab .container h1{
+    font-size:19px ;
+    margin-left:11%;
+    padding-top:17%;
+}
+    .lab .container{
+         height:100px ;
+         margin-left:7%;
+         width: 88%;
+         padding-right: 10%;
+         margin-top: 12%;
+     }
+    .staff {
+       font-size:15px ;
+       margin-top: 11%;
+       margin-left: 50px;
+    }
+    
+    .gallery ul{
+      margin:10px;
+      margin-left:6%;
+      margin-top: 14%;
+    }
+    .gallery ul li{
+        margin:13px;
+      width:80%;  
+      height:150px; 
+    }
+    .gallery ul li img{
+        width: 100%;
+     height:100%;
+     
+    }
+}
