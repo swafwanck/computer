@@ -69,7 +69,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border:1px solid black ;
      
   }
   .staff{
@@ -102,7 +101,6 @@
   .gallery ul li img{
       width: 95%;
       border-radius: 15px;
-      box-shadow:1px 1px 1px 1px #000;
     
   }
   .lab{
